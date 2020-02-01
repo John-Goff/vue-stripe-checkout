@@ -1,7 +1,3 @@
-declare module "vue-stripe-checkout" {
-  import Vue from 'vue';
-  export class VueStripeCheckout {
-    StripeCheckout: Vue
-    StripeElements: Vue
-  }
-}
+import Vue from 'vue';
+export type StripeCheckout = Vue
+export type StripeElements = Vue
