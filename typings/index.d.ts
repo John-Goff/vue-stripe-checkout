@@ -1,5 +1,5 @@
 import Vue from 'vue';
-export namespace VueStripeCheckout {
+declare module "vue-stripe-checkout" {
   export const StripeCheckout: Vue
   export const StripeElements: Vue
 }
