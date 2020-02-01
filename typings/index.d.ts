@@ -1,2 +1,4 @@
-import Vue from 'vue';
-export default interface VueStripeCheckout { StripeCheckout: Vue, StripeElements: Vue }
+declare module "vue-stripe-checkout" {
+  import Vue from 'vue';
+  export interface VueStripeCheckout { StripeCheckout: Vue, StripeElements: Vue }
+}
